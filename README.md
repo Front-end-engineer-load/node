@@ -77,3 +77,22 @@ node提供的这些API比如url 可以在 git里面输入node 回车之后输入
   Url: [Function: Url] }
 
 ```
+```node
+> url.parse('https://github.com/Front-end-engineer-load/node/blob/master/README.
+md#node%E6%8E%A5%E5%8F%A3')
+Url {
+  protocol: 'https:',
+  slashes: true,
+  auth: null,
+  host: 'github.com',
+  port: null,
+  hostname: 'github.com',
+  hash: '#node%E6%8E%A5%E5%8F%A3',
+  search: null,
+  query: null,
+  pathname: '/Front-end-engineer-load/node/blob/master/README.md',
+  path: '/Front-end-engineer-load/node/blob/master/README.md',
+  href: 'https://github.com/Front-end-engineer-load/node/blob/master/README.md#n
+ode%E6%8E%A5%E5%8F%A3' }
+```
+这就是API的使用接下来我们就过一遍node的全部API。
