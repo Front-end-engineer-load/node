@@ -4,7 +4,7 @@
 
 * [**node安装**](#node安装)
 * [**第一个demo**](#第一个demo)
-* [**node**](#API)
+* [**nodeAPI**](#nodeAPI)
 
 
 #### node 安装
@@ -13,7 +13,7 @@
 
 故：下载node与本机响应版本，傻瓜安装即可
 
-	1. 注意32位还是64位，window还是其他的系统
+	1. 注意32位还是64位，windows还是其他的系统
 	2. 注意安装之后，可以打来cmd 输入node -v 查看安装node版本
 	3. 如果node 安装了 蛋死，node -v 不管用 可以去 windows的高级系统设置里面的环境变量里面的path里面添加node的安装路径
 	4. node 和 npm  是一起安装的 不用再安装npm（包管理工具）
@@ -63,3 +63,17 @@ console.log('success!');
 这两种方式都可以得到同样的结果
 
 	1.第一个demo console.log();里面为了让变量得以解析，采用了 ` 这个标示 就是在tab上面的那个键
+
+### nodeAPI
+
+node提供的这些API比如url 可以在 git里面输入node 回车之后输入url 查看相关参数
+
+```node
+> url
+{ parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+
+```
