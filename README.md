@@ -4,7 +4,7 @@
 
 * [**node安装**](#node安装)
 * [**第一个demo**](#第一个demo)
-* [**nodeAPI**](#nodeAPI)
+* [**nodeAPI**](#node接口)
 
 
 #### node 安装
@@ -64,7 +64,7 @@ console.log('success!');
 
 	1.第一个demo console.log();里面为了让变量得以解析，采用了 ` 这个标示 就是在tab上面的那个键
 
-### nodeAPI
+### node接口
 
 node提供的这些API比如url 可以在 git里面输入node 回车之后输入url 查看相关参数
 
